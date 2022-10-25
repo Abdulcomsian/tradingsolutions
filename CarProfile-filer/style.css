@@ -1,0 +1,580 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+link,
+label,
+span {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.main-wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+}
+tr:nth-child(even) {background: #F8F8F8}
+tr:nth-child(odd) {background: #fff}
+
+.main-header-banner {
+    background-image: url("../CarProfile-filer/banner.svg");
+    min-height: 300px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-header-banner .content-div .logo {
+    margin: 54px;
+}
+
+.main-header-banner .content-div .profile-div {
+    position: absolute;
+    padding: 44px 0px;
+    height: 100%;
+    text-align: center;
+    right: 0px;
+    top: 0px;
+    width: 210px;
+}
+
+.main-header-banner .content-div .profile-div .overlay {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #353535;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.main-header-banner .content-div .profile-div h1 {
+    color: #F59300;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.main-header-banner .content-div .profile-div .content {
+    z-index: 999999;
+    height: 100%;
+}
+
+.main-header-banner .content-div .profile-div p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A19F9F;
+}
+
+
+/* .main-header-banner .content-div .contact-detail {
+    position: absolute;
+    bottom: 0px;
+} */
+
+.main-header-banner .content-div .contact-detail p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.main-header-banner .content-div .contact-detail h2 {
+    font-size: 24px;
+    line-height: 21px;
+    color: #fff;
+}
+.user-porfile-div span i{
+    color: #f79427;
+    font-size: 32px;
+    padding-right: 16px;
+    border-right: 1px solid #fff;
+}
+.user-porfile-div{
+    position: absolute;
+    top: -20px;
+    left: 15px;
+}
+.user-porfile-div .user-info{
+    padding-left: 16px;
+    
+}
+.user-porfile-div .user-info h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.user-porfile-div .user-info h1{
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-align: left !important;
+    color: #F59300 !important;
+}
+/************** View - Header - Watch - Back - CSS *************/
+.viewer-header{
+    position: relative;
+}
+.viewer-header .watch-back-functionality {
+    position: absolute;
+    right: 30px;
+    bottom: 18px;
+}
+
+.viewer-header .watch-back-functionality span label {
+    width: 100%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+} 
+.viewer-header h1,.viewer-header h2{
+    font-size: 29px;
+}
+.viewer-header h3{
+    font-size: 20px;
+}
+/*********** Detail - Div - CSS *********************/
+.detail-div {
+    margin: 15px 0px;
+}
+
+.detail-div .img-div img {
+    height: 610px;
+    object-fit: cover;
+    width: 100%;
+}
+.detail-div ul{
+    margin-top: 19px;
+}
+.detail-div ul li {
+    padding: 0px 0px 14px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.detail-div ul li:last-child {
+    border: none;
+}
+
+.detail-div ul li .img-text span:last-child {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.detail-div ul li .dagar-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #F59300;
+}
+
+.detail-div ul li .bud-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.detail-div ul li .dit-lagda-text {
+    color: #0C74C4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.detail-div h3 {
+    background: #EDEDED;
+    padding: 14px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.detail-div .list-div {
+    border: 1px solid #E8E8E8;
+    padding: 0px 23px 25px;
+}
+
+.detail-div .list-div .bid-div {
+    background: rgba(12, 116, 196, 0.12);
+    padding: 49px 16px 18px;
+}
+
+.detail-div .list-div .bid-div .field-btn input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    width: 75%;
+}
+
+.detail-div .list-div .bid-div .field-btn button {
+    background: #0C74C4;
+    border-radius: 4px;
+    padding: 16px 23px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    width: 150px;
+    border: none;
+    margin-left: 15px;
+}
+
+.detail-div .list-div .bid-div p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+}
+
+.detail-div .list-div .buy-now {
+    background: #EDEDED;
+    padding: 14px;
+}
+
+.detail-div .list-div .buy-now h3 {
+    padding: 0px !important;
+    width: 70%;
+}
+
+.detail-div .list-div .buy-now label {
+    background: #FFFFFF;
+    border: 2px solid #0C74C4;
+    border-radius: 4px;
+    padding: 12px 40px;
+}
+.detail-div .list-div p.additional-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.detail-div .list-div .additional-list{
+    padding-left: 15px;
+    list-style: disc;
+}
+.detail-div .list-div .additional-list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: none;
+}
+.detail-div .info-div .plats-div {
+    padding: 20px 15px;
+    background: #ededed;
+}
+
+.detail-div .info-div .plats-div span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.edit-property button {
+    background-color: transparent;
+    border: none;
+}
+.edit-property button a{
+    color: #666666;
+}
+
+.edit-property button img {
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+}
+
+.edit-property button:hover img {
+    -webkit-filter: grayscale(0);
+}
+.common-header {
+    padding: 16px 30px;
+    background-color: #ededed;
+}
+
+.common-header h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.address-text {
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.address-text a {
+    font-size: 18px;
+    color: #0C74C4;
+}
+.table-div .table-header {
+    background-color: #F59300;
+    padding: 15px;
+}
+
+.table-div .table-header h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+.table-div table tr th,.table-div table tr td{
+    padding: 13px 45px;
+}
+.table-div table thead tr{
+    background: #E2EEFF;
+}
+.table-div table thead tr th{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0C74C4;
+    text-align: left;
+}
+.table-div table tbody tr td a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+    color: #0C74C4;
+}
+.table-div table tbody tr td{
+    color: #626262 !important;
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 19px;
+}
+.data td:first-child{
+    font-weight: 600 !important;
+    color: #0C74C4  !important;
+    text-decoration: underline;
+}
+.more-adds{
+    color: #FF8E3C;
+    font-size: 16px;
+    font-weight: 400;
+}
+#Classifieds .grid th{
+    text-align: left;
+}
+/*************** Car - History - Profile - Css ************/
+.car-history-profile .common-div{
+    border: 1px solid #C1C1C1;
+}
+.car-history-profile .table-div table thead tr{
+    background-color: #0C74C4;
+} 
+.common-div .table-div tbody td:first-child{
+    font-weight: 600 !important;
+}
+.common-div .table-div tbody td{
+    color: #666666 !important;
+}
+.car-history-profile .table-div table thead tr th{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+}
+/************* Equipment - Package - Css *************/
+.equipment-package h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.equipment-package p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666;
+    padding: 8px 15px 15px;
+}
+.pb-0{
+    padding-bottom: 0px !important;
+}
+/******** Test - Protocol - CSS ***************/
+#test_protocol .mainheader,
+#test_protocol .insp .model{
+    color: #000 !important;
+}
+#test_protocol table tbody tr td:nth-child(2n){
+    color: #666666;
+}
+#test_protocol .header{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+}
+#test_protocol table tr:nth-child(even){
+    background-color: transparent;
+}
+#test_protocol table tr td:first-child,
+#test_protocol table tr td:nth-child(3){
+    color: #666666;
+    font-weight: 600;
+}
+#test_protocol table tr td{
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+/********* View - All - Image - CSS ************/
+.view-all-image{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.copy-right-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #807E7E;
+    padding: 13px 0px;
+    background-color: #fff;
+
+}
+/************* Footer - CSS ***************/
+.foot{
+    background-color: #0C74C4;
+}
+.foot .footer-content{
+    padding: 50px;
+}
+.foot .footer-content .footer-widgets h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.foot .footer-content .footer-widgets label, .foot .footer-content .footer-widgets p,
+.foot .footer-content .footer-widgets ul li span{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.foot .footer-content .footer-widgets ul{
+    margin: 20px;
+}
+.foot .footer-content .footer-widgets ul li span i {
+    color: #fa8100;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.foot .footer-content .footer-widgets .social-list{
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+}
+.foot .footer-content .footer-widgets .social-list span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 100%;
+}
+.foot .footer-content .footer-widgets .social-list li:last-child span{
+    background: transparent;
+}
+.foot .footer-content .footer-widgets .social-list li:last-child span i{
+    color: #fff !important;
+    font-size: 50px !important;
+}
+.foot .footer-content .footer-widgets .social-list span i{
+    font-size: 34px !important;
+    margin-right: 0px !important;
+    color: #0b70c3 !important;
+}
+.foot .footer-content .footer-widgets form label,.foot .footer-content .footer-widgets form input{
+    width: 100%;
+}
+.foot .footer-content .footer-widgets form input{
+    padding: 15px;
+    font-size: 18px;
+    color: #666;
+}
+.foot .footer-content .footer-widgets form button{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+/*************** Modal - Gallery - Css *****************/
+.Img_wrapper{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+  }
+  #closeModel{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 99999;
+    transition: .2s;
+  }
+  #closeModel:hover{
+    transform: scale(1.1);
+  }
+  #closeModel i{
+    cursor: pointer;
+  }
+  .swiper-slide{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .swiper-slide  img{
+    width: 800px;
+  }
+  .swiper-button-next:after{
+    background-image: url("../CarProfile-filer/next.svg");
+    content: "" !important;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .swiper-button-prev:after{
+    background-image: url("../CarProfile-filer/left.svg");
+    content: "" !important;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
